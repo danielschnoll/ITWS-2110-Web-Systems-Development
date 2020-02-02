@@ -1,0 +1,1 @@
+This lab basically put together the entire semester's worth of knowledge into one lab. It was really cool seeing how I can create a functional site with the entire LAMP stack. 10/10 would recommend

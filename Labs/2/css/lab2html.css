@@ -1,0 +1,22 @@
+body {
+    margin: 40px;
+  }
+  
+  .wrapper {
+    margin: 0 auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    grid-gap: 20px;
+    background-color: #fff;
+    color: #444;
+  }
+  
+  .song {
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+    text-align: center;
+  }

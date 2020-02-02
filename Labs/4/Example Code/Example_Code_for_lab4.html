@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+  <head>
+     <title>Lab 4 AJAX</title>
+     <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <a id="site" href="#"><img id="coverart" src="noalbum.png" /></a>
+    <h1 id="title"></h1>
+    <h2 id="artist"></h2>
+    <h2 id="album"></h2>
+    <p id="date"></p>
+    <ul id="genres">
+    </ul>
+
+    <hr/>
+
+    <button id="button" type="button">Show Full List</button>
+
+    <table id="full-list">  
+    </table>
+
+    </body>
+    <script type="text/javascript">
+
+    $(document).ready(function(){
+
+      $("#site").click(function(){
+
+        console.log("Image clicked");
+
+        $.get("lab4.json", function(data, status){
+
+          console.log(data);
+          
+          $.each(data.track_list, function (index, track) {
+            
+            $("#title").text(track.track_name);
+            $("#artist").text(track.artist.name);
+            $("#album").text(track.album.name);
+            $("#date").text(track.release_date.datetime);
+            
+            var genres = track.genres.genre;
+            $.each(genres, function (j, genre) {
+              $("#genres").text(""); //need to clear the earlier appends.
+              var genre_list_element = document.createElement("li");
+              genre_list_element.innerHTML = genre;
+              $("#genres").append(genre_list_element);
+            });
+            
+          });
+        });
+      });
+
+// ---- Optional Work for Lab4, Creating a Table ----
+      $("#button").click(function(){
+        console.log("Rendering the entire track list ...");
+        
+        var table = "<tr><th>Title</th><th>Artist</th><th>Album</th><th>Date</th><th>Genres</th></tr>";
+        
+        $.get("lab4.json", function(data, status){
+
+          console.log(data.track_list);
+
+          $.each(data.track_list, function (index, track) {
+            console.log(track);
+            table += "<tr><td>" + track.track_name + "</td><td>" + track.artist.name + "</td><td>" + track.album.name + "</td><td>" + track.release_date.datetime + "</td><td>";
+            
+            var genres = track.genres.genre;
+            $.each(genres, function (j, genre) {
+              console.log(genre);
+              table += genre + " ";
+            });
+            
+            table += "</td></tr>";
+
+          });
+          
+          var table_obj = $('table');
+          table_obj.append(table);
+            
+        });
+      });
+    });
+  </script>
+</html>

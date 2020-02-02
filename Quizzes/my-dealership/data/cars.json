@@ -1,0 +1,36 @@
+{
+    "vehicles": [
+        {
+            "type" : "car",
+            "imgURL" : "https://www.tesla.com/tesla_theme/assets/img/models/v1.0/section-hero-background.jpg?20180111",
+            "brand" : "Tesla Model S",
+            "year" : 2018,
+            "manURL" : "https://www.tesla.com/models",
+            "msrp" : "$75,000"
+        },
+        {
+            "type" : "car",
+            "imgURL" : "https://st.motortrend.com/uploads/sites/5/2018/05/2019-Audi-A6-94-1.jpg",
+            "brand" : "Audi A6",
+            "year" : 2019,
+            "manURL" : "https://www.audiusa.com/models/audi-a6",
+            "msrp" : "$59,000"
+        },
+        {
+            "type" : "car",
+            "imgURL" : "https://hips.hearstapps.com/hmg-prod/images/2018-bmw-i8-roadster-placement-1524840622.jpg?crop=1xw:1xh;center,center&resize=900:*",
+            "brand" : "BMW i8",
+            "year" : 2019,
+            "manURL" : "https://www.bmwusa.com/vehicles/bmwi/bmw-i8.html",
+            "msrp" : "$148,000"
+        },
+        {
+            "type" : "car",
+            "imgURL" : "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/share%20img/huracan-coupe-facebook-og.jpg",
+            "brand" : "Lamborghini Huracán Coupé",
+            "year" : 2018,
+            "manURL" : "https://www.lamborghini.com/en-en/models/huracan/huracan-coupe",
+            "msrp" : "$200,000"
+        }
+    ]
+}

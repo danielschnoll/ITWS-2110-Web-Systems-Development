@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Lab 5 - Finished</title>
+
+		<!--CSS in the header as well as replacing the image with CSS-->
+		<style type="text/css">
+			body {
+				background-color:#ADD8E6;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="bar">
+			<a href="#" id="showall">Show All</a>
+
+			<!--This empty list element replaces the 5,000 list elements of the original file.-->
+			<ul id="foo" class="bar">
+				<li></li>
+			</ul>
+
+			<!--JavaScript in the bottom-->
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+			<style type="text/css"></style>
+			<script>
+				$(document).ready(function () {
+					for (var i = 0; i < 5000; i++) {
+						$("div.bar ul#foo").append("<li>This is an item in the list. Click to make me disappear.</li>");
+					}
+					$('ul').click(function (e) {
+						if ($(e.target).is('li')) {
+							$(e.target).hide(400);
+						}
+					});
+					$("#showall").click(function (e) {
+						$("li").show(400);
+					});
+				});
+			</script>
+		</div>
+	</body>
+</html>

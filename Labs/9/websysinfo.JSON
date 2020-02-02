@@ -1,0 +1,143 @@
+{
+	"websys_course":{
+		"Weeks":{
+			"Week-1":{
+				"Label":"Week 1",
+				"Title":"HTTP-Architecture",
+				"Description":"Review and deeper dive into HTTP-Architecture",
+				"Link":"https://lms.rpi.edu/bbcswebdav/pid-143107-dt-content-rid-4865293_1/xid-4865293_1"
+			},
+			"Week-2":{
+				"Label":"Week 2",
+				"Title":"AMP Stack",
+				"Description":"Review and deeper dive into the AMP Stack",
+				"Link":"https://lms.rpi.edu/bbcswebdav/pid-143107-dt-content-rid-4884433_1/xid-4884433_1"
+			},
+			"Week-3":{
+				"Label":"Week 3",
+				"Title":"Markup - Languages",
+				"Description":"Goes over Markup - Lanuages and their benifits",
+				"Link":"https://lms.rpi.edu/bbcswebdav/pid-143108-dt-content-rid-4933034_1/xid-4933034_1"
+			},
+			"Week-4":{
+				"Label":"Week 4",
+				"Title":"JavaScript",
+				"Description":"A look into the client side programming language and how to use it",
+				"Link":"https://lms.rpi.edu/bbcswebdav/pid-143110-dt-content-rid-5291770_1/xid-5291770_1"
+			},
+			"Week-5":{
+				"Label":"Week 5",
+				"Title":"AJAX and JSON Presentation",
+				"Description":"Introduction into AJAX and JSON",
+				"Link":"https://lms.rpi.edu/bbcswebdav/pid-143112-dt-content-rid-5447480_1/xid-5447480_1"
+			},
+			"Week-6":{
+				"Label":"Week 6",
+				"Title":"Front End Performance",
+				"Description":"Discussion on front end optimization",
+				"Link":"https://lms.rpi.edu/bbcswebdav/pid-143114-dt-content-rid-5736321_1/xid-5736321_1"
+			},
+			"Week-7":{
+				"Label":"Week 7",
+				"Title":"PHP",
+				"Description":"Introduction to PHP",
+				"Link":"https://lms.rpi.edu/bbcswebdav/pid-143114-dt-content-rid-5855123_1/xid-5855123_1"
+			},
+			"Week-8":{
+				"Label":"Week 8",
+				"Title":"More on PHP",
+				"Description":"PHP Classes Inheritance and Polymorphism",
+				"Link":"https://lms.rpi.edu/bbcswebdav/pid-143115-dt-content-rid-6062615_1/xid-6062615_1"
+			},
+			"Week-9":{
+				"Label":"Week 9",
+				"Title":"MySQL",
+				"Description":"An introduction to MySQL",
+				"Link":"https://lms.rpi.edu/bbcswebdav/pid-143116-dt-content-rid-6303165_1/xid-6303165_1"
+			},
+			"Week-10":{
+				"Label":"Week 10",
+				"Title":"PHP and MySQL",
+				"Description":"Using PHP and MySQL together",
+				"Link":"https://lms.rpi.edu/bbcswebdav/pid-143117-dt-content-rid-6530014_1/xid-6530014_1"
+			},
+			"Week-11":{
+				"Label":"Week 11",
+				"Title":"User Authentication",
+				"Description":"Using PHP Sessions for User Authentication",
+				"Link":"https://lms.rpi.edu/bbcswebdav/pid-143118-dt-content-rid-6643897_1/xid-6643897_1"
+			},
+			"Week-12":{
+				"Label":"Week 12",
+				"Title":"PostgreSQL",
+				"Description":"Introduction to PostgreSQL",
+				"Link":"https://lms.rpi.edu/bbcswebdav/pid-193929-dt-content-rid-6979074_1/xid-6979074_1"
+			},
+			"Week-13":{
+				"Label":"Week 13",
+				"Title":"Other Web Technologies",
+				"Description":"A discussion on other, more modern web technologies as a segway into the next course, Web Science Development",
+				"Link":"https://lms.rpi.edu/bbcswebdav/pid-206530-dt-content-rid-7317592_1/xid-7317592_1"
+			}
+		},
+		"Labs":{
+			"Lab-1":{
+				"Label":"Lab 1",
+				"Title":"LAMP Stack",
+				"Description":"Introduction to LAMP stack, setup environment",
+				"Link":"../1"
+			},
+			"Lab-2":{
+				"Label":"Lab 2",
+				"Title":"Favorite Artists Page",
+				"Description":"Setup favorite artists page using HTML, CSS, XML",
+				"Link":"../2"
+			},
+			"Lab-3":{
+				"Label":"Lab 3",
+				"Title":"Javascript and the DOM",
+				"Description":"Iterate through DOM",
+				"Link":"../3"
+			},
+			"Lab-4":{
+				"Label":"Lab 4",
+				"Title":"JSON and AJAX",
+				"Description":"Redo Lab 2 with AJAX",
+				"Link":"../4"
+			},
+			"Lab-5":{
+				"Label":"Lab 5",
+				"Title":"Front-end Optimization",
+				"Description":"Optimize given code with methods learned in class",
+				"Link":"../5"
+			},
+			"Lab-6":{
+				"Label":"Lab 6",
+				"Title":"PHP and OOP",
+				"Description":"Create a PHP Calculator and explore PHP functions/classes",
+				"Link":"../6"
+			}
+			,
+			"Lab-7":{
+				"Label":"Lab 7",
+				"Title":"SQL",
+				"Description":"Create SQL tables and insert requested information",
+				"Link":"../7"
+			}
+			,
+			"Lab-8":{
+				"Label":"Lab 8",
+				"Title":"SQL and PHP",
+				"Description":"Redo Lab 7 with PHP to create the user tables",
+				"Link":"../8"
+			},
+			"Lab-10":{
+				"Label":"Lab 10",
+				"Title":"PHP and PostgreSQL",
+				"Description":"Redo Lab 7 with PostgreSQL",
+				"Link":"../10"
+			}
+			
+		}
+	}
+}

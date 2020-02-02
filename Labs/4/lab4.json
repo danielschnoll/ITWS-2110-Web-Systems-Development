@@ -1,0 +1,58 @@
+{
+	"playlist":[
+		{
+			"track_name":"Take Me Home, Country Roads",
+			"artist":"John Denver",
+			"album":"Poems, Prayers, and Promises",
+			"album_art_url":"./img/Poems,_Prayers_and_Promises.jpg",
+			"date":1971,
+			"artist_site_url":"http://johndenver.com",
+			"genres":"Country"
+		},
+		{
+			"track_name":"Warriors",
+			"artist":"Imagine Dragons",
+			"album":"Smoke and Mirrors",
+			"album_art_url":"/img/smoke_and_mirrors.jpg",
+			"date":2014,
+			"artist_site_url":"https://www.imaginedragonsmusic.com/music/smoke-mirrors-deluxe/warriors",
+			"genres":"Alternative, Rock"
+		},
+		{
+			"track_name":"Pinball Wizard",
+			"artist":"The Who",
+			"album":"Tommy",
+			"album_art_url":"/img/tommy.jpg",
+			"date":1979,
+			"artist_site_url":"https://www.thewho.com",
+			"genres":"Rock"
+		},
+		{
+			"track_name":"Born in the USA",
+			"artist":"Bruce Springsteen",
+			"album":"Born in the USA",
+			"album_art_url":"/img/bornusa.jpg",
+			"date":1984,
+			"artist_site_url":"http://brucespringsteen.net",
+			"genres":"Rock"
+        },
+        {
+			"track_name":"The Final Countdown",
+			"artist":"Europe",
+			"album":"The Final Countdown",
+			"album_art_url":"/img/final_count_down.jpg",
+			"date":1986,
+			"artist_site_url":"http://europetheband.com",
+			"genres":"Rock"
+        },
+        {
+			"track_name":"Jump",
+			"artist":"Van Halen",
+			"album":"1984",
+			"album_art_url":"/img/1984.jpg",
+			"date":1984,
+			"artist_site_url":"http://www.van-halen.com",
+			"genres":"Hard Rock"
+		}
+	]
+}

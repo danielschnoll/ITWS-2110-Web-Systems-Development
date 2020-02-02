@@ -1,0 +1,23 @@
+# command to create a new database
+
+create database websyslab10;
+
+# command to list all the databases
+
+/list
+
+
+# The user needs access to the database, obviously:
+
+GRANT CONNECT ON DATABASE websyslab10 TO thilanka;
+
+# And (at least) the USAGE privilege on the schema:
+GRANT USAGE ON SCHEMA public TO thilanka;
+
+#  Then, all permissions for all tables (requires Postgres 9.0 or later):
+
+GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA public TO thilanka;
+
+# And don't forget sequences (if any):
+
+GRANT ALL PRIVILEGES ON ALL SEQUENCES IN SCHEMA public TO thilanka;

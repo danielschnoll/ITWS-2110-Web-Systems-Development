@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="css/lab2xml.css"?>
+<root_element xmlns:html="http://www.w3.org/1999/xhtml">
+    <xml>
+        <body>
+            <div>
+                <div id="song1" style="padding: 20px;">
+                    <html:img src ="img/Poems,_Prayers_and_Promises.jpg" style="float: right; clear: right; height: 100px; width: 100px"></html:img>
+                    <div class = "album">
+                        <h4>
+                            <u>Poems, Prayers, and Promises</u>
+                        </h4>
+                    </div>
+                    <div class = "song">
+                        <h4>
+                            Title: "Take Me Home, Country Roads"
+                        </h4>
+                    </div>
+                    <div class = "artist">
+                        <h4>
+                            Artist: John Denver
+                        </h4>
+                    </div>
+                    <div class = "genre">
+                        <h4>
+                            Genre: Country
+                        </h4>
+                    </div>
+                </div>
+                <div id="song2" style="padding: 20px;">
+                    <html:img src ="img/smoke_and_mirrors.jpg" style="float: right; clear: right; height: 100px; width: 100px"></html:img>
+                    <div class = "album">
+                        <h4>
+                            <u>Smoke and Mirrors</u>
+                        </h4>
+                    </div>
+                    <div class = "song">
+                        <h4>
+                            Title: "Warriors"
+                        </h4>
+                    </div>
+                    <div class = "artist">
+                        <h4>
+                            Artist: Imagine Dragons
+                        </h4>
+                    </div>
+                    <div class = "genre">
+                        <h4>
+                            Genre: Alternative, Rock
+                        </h4>
+                    </div>
+                </div>
+                <div id="song3" style="padding: 20px;">
+                    <html:img src ="img/tommy.jpg" style="float: right; clear: right; height: 100px; width: 100px"></html:img>
+                    <div class = "album">
+                        <h4>
+                            <u>Tommy</u>
+                        </h4>
+                    </div>
+                    <div class = "song">
+                        <h4>
+                            Title: "Pinball Wizard"
+                        </h4>
+                    </div>
+                    <div class = "artist">
+                        <h4>
+                            Artist: The Who
+                        </h4>
+                    </div>
+                    <div class = "genre">
+                        <h4>
+                            Genre: Rock
+                        </h4>
+                    </div>
+                </div>
+                <div id="song4" style="padding: 20px;">
+                    <html:img src ="img/bornusa.jpg" style="float: right; clear: right; height: 100px; width: 100px"></html:img>
+                    <div class = "album">
+                        <h4>
+                            <u>Born in the U.S.A</u>
+                        </h4>
+                    </div>
+                    <div class = "song">
+                        <h4>
+                            Title: "Born in the U.S.A"
+                        </h4>
+                    </div>
+                    <div class = "artist">
+                        <h4>
+                            Artist: Bruce Springsteen
+                        </h4>
+                    </div>
+                    <div class = "genre">
+                        <h4>
+                            Genre: Rock
+                        </h4>
+                    </div>
+                </div>
+                <div id="song5" style="padding: 20px;">
+                    <html:img src ="img/final_count_down.jpg" style="float: right; clear: right; height: 100px; width: 100px"></html:img>
+                    <div class = "album">
+                        <h4>
+                            <u>The Final Countdown</u>
+                        </h4>
+                    </div>
+                    <div class = "song">
+                        <h4>
+                            Title: "The Final Countdown"
+                        </h4>
+                    </div>
+                    <div class = "artist">
+                        <h4>
+                            Artist: Europe
+                        </h4>
+                    </div>
+                    <div class = "genre">
+                        <h4>
+                            Genre: Rock
+                        </h4>
+                    </div>
+                </div>
+                <div id="song6" style="padding: 20px;">
+                    <html:img src ="img/1984.jpg" style="float: right; clear: right; height: 100px; width: 100px"></html:img>
+                    <div class = "album">
+                        <h4>
+                            <u>1984</u>
+                        </h4>
+                    </div>
+                    <div class = "song">
+                        <h4>
+                            Title: "Jump"
+                        </h4>
+                    </div>
+                    <div class = "artist">
+                        <h4>
+                            Artist: Van Halen
+                        </h4>
+                    </div>
+                    <div class = "genre">
+                        <h4>
+                            Genre: Hard Rock
+                        </h4>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </xml>
+</root_element>

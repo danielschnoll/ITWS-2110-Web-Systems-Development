@@ -1,0 +1,47 @@
+div {
+  display: block;
+}
+title {
+  margin-bottom: 3em;
+}
+.artist {
+  font-size: 12em;
+}
+div[class=song] {
+  font-size: .8em;
+}
+#song1 {
+  margin-bottom: 2.5em;
+  padding-bottom:2.5em;
+  border-bottom: 1px solid black;
+}
+#song2 {
+  margin-bottom: 2.5em;
+  padding-bottom:2.5em;
+  border-bottom: 1px solid black;
+}
+#song3 {
+  margin-bottom: 2.5em;
+  padding-bottom:2.5em;
+  border-bottom: 1px solid black;
+}
+#song4 {
+  margin-bottom: 2.5em;
+  padding-bottom:2.5em;
+  border-bottom: 1px solid black;
+}
+#song5 {
+  margin-bottom: 2.5em;
+  padding-bottom:2.5em;
+  border-bottom: 1px solid black;
+}
+#song6 {
+  margin-bottom: 2.5em;
+  padding-bottom:2.5em;
+  border-bottom: 1px solid black;
+}
+h1 {
+  text-align: center;
+  margin-left: 45%;
+  margin-right: 45%;
+}
